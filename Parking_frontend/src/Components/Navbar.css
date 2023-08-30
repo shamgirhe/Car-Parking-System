@@ -1,0 +1,18 @@
+.logo {
+  color: rgb(0, 255, 26);
+  font-weight: bold;
+  text-shadow: 5px 5px 5px #f3d2d2;
+  text-decoration-style: solid;
+  font-size: xx-large;
+}
+
+.gradient-button {
+  background-image: linear-gradient(to right, #41aa0d, #0f72a8);
+  border: none;
+  border-radius: 20px;
+  color: white;
+  padding: 10px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}

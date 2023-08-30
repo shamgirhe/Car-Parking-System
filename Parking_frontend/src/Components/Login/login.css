@@ -1,0 +1,27 @@
+.login-page {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+  }
+  
+  .form-control {
+    border-radius: 0;
+  }
+  
+  .password-icon {
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    cursor: pointer;
+  }
+  
+  @media only screen and (max-width: 576px) {
+    .login-page {
+      background-size: contain;
+    }
+  }
+  

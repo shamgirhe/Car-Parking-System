@@ -1,0 +1,39 @@
+
+   .input-table {
+    display: inline-table;
+    width: 100%;
+    border-collapse: collapse; 
+    border: 2px solid #333;
+    margin: 10px 0; 
+  }
+  
+  .input-cell {
+    display: table-cell;
+    padding: 8px;
+    border: 1px solid #333; 
+    text-align: center;
+  }
+  
+  /* .input-row:first-child .input-cell { /* This styles the first row */
+    /* background-color: #fff;
+    color: #fff;
+    font-weight: bold; */
+  /* } */ 
+  
+  .input-row:nth-child(even) .input-cell { /* This styles the even rows */
+    background-color: #f2f2f2;
+  }
+  
+  .input-row:hover .input-cell { 
+    background-color: #ddd;
+  }
+
+  button[type="submit"] {
+    background-color: lightskyblue;
+    color: black;
+    font-size: 18px;
+  padding: 5px 30px;
+  border-radius: 3px;
+  }
+  
+  

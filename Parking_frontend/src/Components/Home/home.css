@@ -1,0 +1,12 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+.border-top {
+  border-top: 1px solid #ddd;
+}
+
+.fa-facebook:hover, .fa-twitter:hover, .fa-instagram:hover {
+  color: #007bff;
+  cursor: pointer;
+}

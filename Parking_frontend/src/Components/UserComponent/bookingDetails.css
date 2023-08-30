@@ -1,0 +1,56 @@
+/* .bookingDetails {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  /* background-color: darkslategrey; }*/
+  
+  
+  .table-bordered {
+  border-collapse: collapse;
+  justify-content: center;
+  margin: auto;
+  width: 100%;
+  max-width: 800px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  text-shadow: #ddd;
+  color: yellow;
+  background-color: darkslategrey;
+  margin: auto;
+  }
+
+  .style {
+   
+    width: 450px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    transform: translate3d(0, 0, 0);
+    transition: transform 0.5s ease-out;
+    justify-content: center;
+   text-align: center;
+   font-weight: bold;
+   font-size: 1.5;
+  }
+  
+  .style:hover {
+    transform: translate3d(0, -45px, 0);
+  }
+
+
+  
+  .table-bordered td,
+  .table-bordered th {
+  border: 1px solid black;
+  justify-content: center;
+  padding: 8px;
+  text-align: left;
+  }
+  
+  .table-bordered th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  justify-content: center;
+  background-color: #f2f2f2;
+  color: #333;
+  font-weight: bold;
+  }

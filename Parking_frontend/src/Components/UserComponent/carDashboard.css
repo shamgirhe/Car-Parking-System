@@ -1,0 +1,30 @@
+  .style {
+   
+    width: 100px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    transform: translate3d(0, 0, 0);
+    transition: transform 0.5s ease-out;
+    justify-content: center;
+   text-align: center;
+   font-weight: bold;
+   font-size: 1.5;
+ background-color: silver;
+  }
+  
+  .style:hover {
+    transform: translate3d(0, -5px, 0);
+  }
+
+  .table-bordered {
+    border-collapse: collapse;
+    justify-content: center;
+    margin: auto;
+    width: 100%;
+    max-width: 800px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    /* text-shadow: #ddd; */
+    color: rgb(7, 7, 62);
+    background-color: rgb(12, 83, 83);
+    margin: auto;
+  }
+
